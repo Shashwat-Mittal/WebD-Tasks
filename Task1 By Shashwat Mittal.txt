@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Task-1</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="https://geekhaven.iiita.ac.in/">Home</a> <span>|</span>
+            <a href="https://geekhaven.iiita.ac.in/#wings-section">Wings</a> <span>|</span>
+            <a href="https://geekhaven.iiita.ac.in/#projects">Projects</a> <span>|</span>
+            <a href="https://geekhaven.iiita.ac.in/#footer">Contact</a> <span>|</span>
+            <a href="https://geekhaven.iiita.ac.in/geekhaven/login.php">Login</a> <span>|</span>
+        </header>
+
+        <br> <br>
+        <h1>STUDENT REGISTRATION FORM</h1>
+        <form>
+            <label for="first name">First Name:</label> <br>
+            <input type="text" id="first name"> <br><br>
+            <label for="ln">Last Name:</label> <br>
+            <input type="text" id="ln"> 
+            <br> <br>
+            <label for="dob">DOB:</label> <br>
+            <input type="date" id="dob" placeholder=" DD-MM-YYYY ">
+            <br> <br> 
+            <label for="fn">Father's Name:</label> <br>
+            <input type="text" id="fn"> <br>
+            <br>
+            
+            <span>Document :</span> <br>
+            
+            <input type="radio" name="document" id="adhaar">
+            <label for="adhaar">ADHAAR</label> <br>
+            <input type="radio" name="document" id="dl">
+            <label for="dl">Driving Licence</label> <br>
+            <input type="radio" name="document" id="other">
+            <label for="other">Other</label> <br>
+            <br>
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+            <br> <br>
+            <label for="description">Description:</label> <br>
+            <textarea name="description" id="description" cols="40" rows="5"></textarea>
+            <br> <br>
+            <input type="checkbox" id="confirm">
+            <label for="confirm"> CONFIRM </label>
+            <br> 
+            <input type="submit" name="SUBMIT" id="submit">
+            
+        </form>
+        <br> <br> 
+        <footer>
+            <span>Made By Geekhaven</span><br>
+            <i class="fa fa-address-book"></i> <span> Contact </span>
+            <i class="fa fa-envelope"></i>  <span> Mail </span>
+            <i class="fa fa-facebook"></i>  <span> Facebook </span>
+            <i class="fa fa-instagram "></i>  <span> Instagram </span>
+        </footer>
+    </body>
+</html>
+<!--Created By Shashwat Mittal, IIT2020157-->
+<!--Don't try to copy-->
+<!--Bhagwaan Sab Dekh Raha hai-->
+<!--Seniors bhi, XD-->
